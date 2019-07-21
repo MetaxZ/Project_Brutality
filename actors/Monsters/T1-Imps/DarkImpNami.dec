@@ -4,7 +4,7 @@ actor NamiDarkImp Replaces DoomImp
     	Game Doom
     Scale 1.04
 	SpawnID 1460
-	Health 125
+	Health 250
 	Radius 18
 	Height 48
 	Speed 12

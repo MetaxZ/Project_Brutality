@@ -2,7 +2,7 @@
 
 Actor DNImpVariant2 : Imp Replaces DoomImp
 {
-    Health 55
+    Health 110
     Radius 20
     Height 56
     Speed 11

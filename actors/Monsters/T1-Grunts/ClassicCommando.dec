@@ -3,9 +3,9 @@
 // Chaingunner
 //
 //===========================================================================
-ACTOR ChaingunGuy2: ChaingunGuy1 Replaces ChaingunGuy
+ACTOR ChaingunGuy2: Zombie_Man Replaces ChaingunGuy
 {
-	Health 100
+	Health 200
 	Radius 20
 	Height 44
 	Mass 100

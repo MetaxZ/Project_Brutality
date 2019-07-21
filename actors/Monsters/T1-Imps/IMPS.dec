@@ -108,7 +108,7 @@ ACTOR Imp: DoomImp Replaces DoomImp
 	Game Doom
     Scale 1.04
 	SpawnID 1400
-	Health 75
+	Health 150
 	Radius 18
 	Height 48
 	Mass 100

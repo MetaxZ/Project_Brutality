@@ -2,9 +2,9 @@ ACTOR PlasmaZombie: Zombie_Man Replaces ChaingunGuy
 {
 	Scale 1.05
 	Height 46
-	Health 75
+	Health 150
 	SpawnID 1180
-	DropItem "Cell"
+	DropItem "Cell", 50
 	States
 	{
 	

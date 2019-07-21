@@ -62,7 +62,7 @@ ACTOR RiotShieldGuy : ShotgunGuy1 Replaces ShotgunGuy
 {
 	SpawnID 1220
 	DropItem "DropedGrenade" 4
-	DropItem "PistolDrop"
+	DropItem "PistolDrop", 50
 	DropItem "RiotShieldDrop"
 	+MissileEvenMore
 	States
@@ -475,8 +475,8 @@ ACTOR ShotgunGuy2 : ShotgunGuy1 Replaces ShotgunGuy
 {
 	SpawnID 1210
 	DropItem "DropedGrenade" 7
-	DropItem "PistolDrop"
-	DropItem "DropedShotgun"
+	DropItem "PistolDrop", 50
+	DropItem "DropedShotgun", 50
 	+MissileEvenMore
 	States
 	{
@@ -1396,7 +1396,7 @@ Actor PyroSergeant: ShotgunGuy2 replaces ShotgunGuy
 {
 	SpawnID 1250
 	Scale 1.04
-	DropItem "FlameCannon"
+	DropItem "FlameCannon", 50
 	PainChance "Fire", 12
 	PainChance "Flames", 12
 	PainChance "Burn", 12
@@ -2474,7 +2474,7 @@ States{Spawn:
 
 Actor Vanilla_PyroSergeant : PyroSergeant
 {
-	DropItem "DropedShotgun"
+	DropItem "DropedShotgun", 50
 	DropItem "DropedGrenade" 6
 	
 	States
@@ -2492,7 +2492,7 @@ Actor Vanilla_PyroSergeant : PyroSergeant
 
 Actor Vanilla_Shotgunguy2 : Shotgunguy2
 {
-	DropItem "DropedShotgun"
+	DropItem "DropedShotgun", 50
 	DropItem "DropedGrenade" 6
 	States
 	{

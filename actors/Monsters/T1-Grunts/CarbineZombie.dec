@@ -6,7 +6,7 @@
 ACTOR ARZombieMan: Zombie_Man Replaces ZombieMan
 {
 	Game Doom
-	Health 70
+	Health 140
 	GibHealth 70
 	Speed 9
 	FastSpeed 20
@@ -19,7 +19,7 @@ ACTOR ARZombieMan: Zombie_Man Replaces ZombieMan
 	DeathSound "grunt/death"
 	ActiveSound "grunt/active"
 	Obituary "%o was perforated by an Assault Gunner."
-	DropItem "DropedCarbine"
+	DropItem "DropedCarbine" 50
 	DropItem "DropedGrenade" 15
 	Damagefactor "ExtremePunches", 1.25
 	Damagefactor "Fatality", 1.25

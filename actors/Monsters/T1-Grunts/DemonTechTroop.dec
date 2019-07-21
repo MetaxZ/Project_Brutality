@@ -46,10 +46,10 @@ Xdeath:
 	}
 }
 
-ACTOR HellTrooper Replaces ShotgunGuy
+ACTOR HellTrooper: Zombie_Man  Replaces ShotgunGuy
 {
 	Game Doom
-	Health 220
+	Health 440
 	Radius 16
 	Height 46
     Speed 9

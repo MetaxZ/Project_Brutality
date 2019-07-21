@@ -4,9 +4,9 @@
 //
 //===========================================================================
 
-ACTOR ChaingunGuy3: ChaingunGuy Replaces ChaingunGuy
+ACTOR ChaingunGuy3: Zombie_Man Replaces ChaingunGuy
 {
-	Health 95
+	Health 190
 	Radius 16
 	Height 44
 	Mass 100

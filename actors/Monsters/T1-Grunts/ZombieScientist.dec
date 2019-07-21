@@ -1,7 +1,7 @@
 ACTOR Labguy replaces ZombieMan //10828
 {
 	Game Doom
-	Health 90
+	Health 180
 	Radius 16
 	Height 44
     Speed 10

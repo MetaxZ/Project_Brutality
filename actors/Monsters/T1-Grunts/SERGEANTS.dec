@@ -9,10 +9,10 @@ Actor TypeSergeant : Inventory
 inventory.maxamount 1
 }
 
-ACTOR ShotgunGuy1: ShotgunGuy Replaces ShotgunGuy
+ACTOR ShotgunGuy1: Zombie_Man Replaces ShotgunGuy
 {
 	Game Doom
-	Health 50
+	Health 100
 	SpawnID 1
 	Radius 16
 	Height 44
@@ -40,7 +40,7 @@ ACTOR ShotgunGuy1: ShotgunGuy Replaces ShotgunGuy
 	damagefactor "SSG", 50.0
 	damagefactor "killme", 0.0
 	DropItem "DropedGrenade" 7
-	DropItem "DropedShotgun"
+	DropItem "DropedShotgun" 50
 	damagetype "Melee"
 	Monster
 	+FLOORCLIP
@@ -2217,7 +2217,7 @@ States{Spawn:
 
 Actor Vanilla_Shotgunguy1 : Shotgunguy1
 {
-	DropItem "DropedShotgun" 256
+	DropItem "DropedShotgun" 50
 	DropItem "DropedGrenade" 6
 	States
 	{

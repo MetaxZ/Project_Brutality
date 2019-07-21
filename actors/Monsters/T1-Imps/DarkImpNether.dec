@@ -3,7 +3,7 @@ actor NetherDarkImp Replaces DoomImp
     Game Doom
     Scale 1.04
 	SpawnID 1470
-	Health 140
+	Health 280
 	Radius 18
 	Height 48
 	Speed 10

@@ -6,7 +6,7 @@ Actor RifleCommandoPossessed : Inventory {}
 ACTOR RifleCommando : ChaingunGuy1 Replaces ChaingunGuy
 {
 	//$Category Monsters
-   Health 125
+   Health 250
    Radius 20
    Height 56
   // Speed 11
@@ -18,7 +18,7 @@ ACTOR RifleCommando : ChaingunGuy1 Replaces ChaingunGuy
    -MISSILEMORE
    -MISSILEEVENMORE
    Damagefactor "Taunt", 0.01
-   DropItem "NewClip"
+   DropItem "NewClip", 50
  //  DropItem "LMG"
    Obituary "%o was assaulted by a commando." 
    States 

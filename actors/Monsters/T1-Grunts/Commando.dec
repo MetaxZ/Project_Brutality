@@ -9,9 +9,9 @@ Inventory.MaxAmount 1
 }
 
 
-ACTOR ChaingunGuy1: ChaingunGuy Replaces ChaingunGuy
+ACTOR ChaingunGuy1: Zombie_Man Replaces ChaingunGuy
 {
-	Health 90
+	Health 180
 	Radius 16
 	Height 44
 	Mass 100

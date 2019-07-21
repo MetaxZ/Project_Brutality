@@ -1,6 +1,6 @@
-Actor QuadShotgunZombie: ShotgunGuy1 Replaces ShotgunGuy
+Actor QuadShotgunZombie: Zombie_Man Replaces ShotgunGuy
 {
-  Health 46
+  Health 194
   Radius 16
   Height 44
   Mass 100

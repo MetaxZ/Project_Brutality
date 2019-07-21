@@ -1,6 +1,6 @@
 Actor ZSpecOpsMachinegun : QuadShotgunZombie Replaces ShotgunGuy
 {
-	Health 85
+	Health 170
 	Radius 16
 	Height 44
 	Speed 12
@@ -40,8 +40,8 @@ Actor ZSpecOpsMachinegun : QuadShotgunZombie Replaces ShotgunGuy
 	DamageFactor "Fatality", 0.5
 	DamageFactor "SuperPunch", 0.5
 	  Decal BulletChip
-	  DropItem "DropedSMG"
-	  DropItem "BulletCartridge"
+	  DropItem "DropedSMG", 50
+	  DropItem "BulletCartridge", 50
   States
   {
   Death.Shrink:
@@ -2118,9 +2118,9 @@ States{Spawn:
 
 Actor Vanilla_ZSpec : ZSpecOpsMachinegun
 {
-	DropItem "NewClip" 256
-	DropItem "Shell" 256
-	DropItem "DropedVanillaSMG" 256
+	DropItem "NewClip" 50
+	DropItem "Shell" 50
+	DropItem "DropedVanillaSMG" 50
 	DropItem "DropedGrenade" 5
 	States
 	{

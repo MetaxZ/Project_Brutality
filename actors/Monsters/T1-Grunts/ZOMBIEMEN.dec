@@ -40,7 +40,7 @@ Stop
 ACTOR Zombie_Man: ZombieMan Replaces ZombieMan
 {
 	Game Doom
-	Health 50
+	Health 100
 	Radius 16
 	Height 44
     Speed 6
@@ -84,12 +84,12 @@ ACTOR Zombie_Man: ZombieMan Replaces ZombieMan
 	damagefactor "Shrapnel", 0.4
 	damagefactor "ExplosiveImpact", 0.6
 	damagefactor "killme", 0.0
-	DropItem "DropedRifle"
+	DropItem "DropedRifle", 50
 	DropItem "DropedGrenade" 7
 	Obituary "%o has been gunned down by a Zombie Soldier."
 	damagefactor "Taunt", 1.0
 	DamageFactor "CauseObjectsToSplash", 0.0
-	DropItem "PistolDrop"
+	DropItem "PistolDrop", 50
 	States
 	{
 	
@@ -2920,7 +2920,7 @@ ACTOR PinnedZombiemanTorso
 
 Actor Vanilla_ZombieMan : Zombie_Man
 {
-	DropItem "DropedRifle" 256
+	DropItem "DropedRifle", 50
 	DropItem "DropedGrenade" 5
 	States
 	{

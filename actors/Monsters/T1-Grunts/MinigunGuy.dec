@@ -1,7 +1,7 @@
 ACTOR MinigunGuy : Zombie_Man Replaces ZombieMan
 {
 	DropItem "NewClipBox", 50
-	DropItem "DropedMinigun"
+	DropItem "DropedMinigun", 50
 	SpawnID 1170
 	Obituary "%o became a Minigun Zombie's target practice."
 	States

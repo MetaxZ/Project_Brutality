@@ -1,7 +1,7 @@
 ACTOR PistolZombieman: Zombie_Man Replaces ZombieMan
 {
 	SpawnID 1120
-	DropItem "PistolDrop"
+	DropItem "PistolDrop", 50
 	States
 	{
 	///////////////////////////////////////////
@@ -781,13 +781,13 @@ States
 ACTOR PistolZombieman2: Zombie_Man Replaces ZombieMan
 {
 	SpawnID 1130
-	DropItem "PistolDrop"
+	DropItem "PistolDrop", 50
 	PainChance "Kick", 255
 	PainChance "SuperKick", 255
 	PainChance "Melee", 255
 	PainChance "MonsterKnocked", 255
 	PainChance "ExplosiveImpact", 255
-	Health 34
+	Health 136
 	Speed 6
 	Scale 1.0
 	Radius 16
@@ -1948,9 +1948,9 @@ ACTOR PistolZombieman2: Zombie_Man Replaces ZombieMan
 ACTOR HelmetZombieMan: PistolZombieman2 Replaces ZombieMan
 {
 	SpawnID 1110
-	DropItem "DropedRifle"
+	DropItem "DropedRifle", 50
 	DropItem "DropedGrenade" 5
-	DropItem "PistolDrop"
+	DropItem "PistolDrop", 50
 	States
 	{
 		Possession:
@@ -2920,7 +2920,7 @@ Actor DeadZombieMarine_NoLeg: DeadZombieMan_NoArm
 
 ACTOR ZombieMarineDude: Zombie_Man Replaces ZombieMan
 { 
-    Health 44
+    Health 88
 	Speed 7
 	Scale 1.0
 	Radius 16
@@ -3931,7 +3931,7 @@ States{Spawn:
 
 Actor Vanilla_PistolZombieman : PistolZombieman
 {
-	DropItem "DropedPistol" 256
+	DropItem "DropedPistol" 50
 	DropItem "DropedGrenade" 5
 	States
 	{
@@ -3948,7 +3948,7 @@ Actor Vanilla_PistolZombieman : PistolZombieman
 
 Actor Vanilla_PistolZombieman2 : PistolZombieman2
 {
-	DropItem "DropedPistol" 256
+	DropItem "DropedPistol" 50
 	DropItem "DropedGrenade" 5
 	States
 	{
@@ -3965,7 +3965,7 @@ Actor Vanilla_PistolZombieman2 : PistolZombieman2
 
 Actor Vanilla_HelmetZombieman : HelmetZombieman
 {
-	DropItem "DropedRifle" 256
+	DropItem "DropedRifle" 50
 	DropItem "DropedGrenade" 5
 	States
 	{

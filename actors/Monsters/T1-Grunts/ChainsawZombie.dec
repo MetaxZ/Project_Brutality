@@ -1,6 +1,6 @@
 ACTOR ChainsawLabguy : Labguy replaces ZombieMan //10828
 {
-	Health 95
+	Health 190
 	SpawnID 1160
 	States
 	{

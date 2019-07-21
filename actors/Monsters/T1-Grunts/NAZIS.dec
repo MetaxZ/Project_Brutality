@@ -2,7 +2,7 @@ ACTOR Nazi: WolfensteinSS
 {
 	Game Doom
 	SpawnID 2520
-	Health 90
+	Health 180
     GibHealth 35
 	Radius 20
 	Height 40

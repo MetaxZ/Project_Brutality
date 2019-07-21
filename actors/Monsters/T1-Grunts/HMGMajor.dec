@@ -1,14 +1,14 @@
 Actor ChaingunMajor : ChaingunGuy1 Replaces ChaingunGuy
 {
   Scale 0.99
-  Health 105
+  Health 110
   Painchance 175
   Speed 7
   Mass 300
   SpawnID 1330
   Obituary "%o was perforated by a heavy weapons major."
   Decal Bulletchip
-  Dropitem "DropedHMG", 256
+  Dropitem "DropedHMG", 50
   States
   {
   Death.Shrink:

@@ -10,7 +10,7 @@ ACTOR SavageImp: DoomImp Replaces DoomImp
 	Game Doom
     Scale 1.05
 	SpawnID 5
-	Health 110
+	Health 220
 	Radius 18
 	Height 48
 	Mass 100

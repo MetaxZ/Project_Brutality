@@ -1,7 +1,7 @@
-ACTOR ASGGuy : ShotgunGuy1 Replaces ShotgunGuy
+ACTOR ASGGuy : Zombie_Man Replaces ShotgunGuy
 {
 //$Category Z2M3_Monsters
-    Health 65
+    Health 170
     Radius 18
 	Height 48
 	Height 48
@@ -20,8 +20,8 @@ ACTOR ASGGuy : ShotgunGuy1 Replaces ShotgunGuy
 	DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood", 0.0
 	damagefactor "killme", 0.0
 	dAMAGEFACTOR "Avoid", 0.0
-	DropItem "DropedASG"
-    DropItem "NewShell"
+	DropItem "DropedASG", 50
+    DropItem "NewShell", 50
 	DropItem "DropedGrenade" 5
     States
     {

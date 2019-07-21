@@ -211,7 +211,7 @@ actor CrashingFlier6
 actor ZombieFlyer
 {
 	//$Category "ZDoom Monster pack"
-    Health 225
+    Health 450
     Radius 32
     Height 56
     Speed 20

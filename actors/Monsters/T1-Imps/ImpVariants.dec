@@ -2,7 +2,7 @@
 //Dickhead imp
 Actor DNImpVariant3 : Imp Replaces DoomImp
 {
-    Health 65
+    Health 130
     Radius 20
     Height 46
 	Species Imp
